@@ -1,0 +1,77 @@
+* text=auto !eol
+/README -text
+/abbaye.desktop -text
+/abbaye.png -text svneol=unset#image/png
+fonts/VeniceClassic.ttf -text svneol=unset#application/x-font-ttf
+graphics/abbeymd.png -text svneol=unset#image/png
+graphics/fondosmd/01.png -text svneol=unset#image/png
+graphics/fondosmd/02.png -text svneol=unset#image/png
+graphics/fondosmd/03.png -text svneol=unset#image/png
+graphics/fondosmd/05.png -text svneol=unset#image/png
+graphics/fondosmd/06.png -text svneol=unset#image/png
+graphics/fondosmd/07.png -text svneol=unset#image/png
+graphics/fondosmd/08.png -text svneol=unset#image/png
+graphics/fondosmd/09.png -text svneol=unset#image/png
+graphics/fondosmd/10.png -text svneol=unset#image/png
+graphics/fondosmd/11.png -text svneol=unset#image/png
+graphics/fondosmd/12.png -text svneol=unset#image/png
+graphics/fondosmd/13.png -text svneol=unset#image/png
+graphics/fondosmd/14.png -text svneol=unset#image/png
+graphics/fondosmd/15.png -text svneol=unset#image/png
+graphics/fondosmd/16.png -text svneol=unset#image/png
+graphics/fondosmd/17.png -text svneol=unset#image/png
+graphics/fondosmd/18.png -text svneol=unset#image/png
+graphics/fondosmd/19.png -text svneol=unset#image/png
+graphics/fondosmd/20.png -text svneol=unset#image/png
+graphics/fondosmd/21.png -text svneol=unset#image/png
+graphics/fondosmd/22.png -text svneol=unset#image/png
+graphics/fondosmd/23.png -text svneol=unset#image/png
+graphics/fondosmd/24.png -text svneol=unset#image/png
+graphics/intro-pandora.png -text svneol=unset#image/png
+graphics/intro.png -text svneol=unset#image/png
+graphics/intro2.png -text svneol=unset#image/png
+graphics/pergamino.png -text svneol=unset#image/png
+graphics/pergaminoazul.png -text svneol=unset#image/png
+graphics/pergaminorojo.png -text svneol=unset#image/png
+graphics/temp.png -text svneol=unset#image/png
+graphics/tiles.png -text svneol=unset#image/png
+graphics/tilesmd.png -text svneol=unset#image/png
+graphics/titlemd.png -text svneol=unset#image/png
+/makefile -text
+mapa/enemigos.txt -text
+mapa/mapa.txt -text
+music/AreaIChurchN.wav -text svneol=unset#audio/x-wav
+music/AreaIICavesV2N.wav -text svneol=unset#audio/x-wav
+music/AreaIIIHellN.wav -text svneol=unset#audio/x-wav
+music/EvilFightN.wav -text svneol=unset#audio/x-wav
+music/GameOverV2N.wav -text svneol=unset#audio/x-wav
+music/HangmansTree.wav -text svneol=unset#audio/x-wav
+music/MainTitleN.wav -text svneol=unset#audio/x-wav
+music/ManhuntN.wav -text svneol=unset#audio/x-wav
+music/ManhuntwoodN.wav -text svneol=unset#audio/x-wav
+music/PrayerofHopeN.wav -text svneol=unset#audio/x-wav
+sounds/Item.wav -text svneol=unset#audio/x-wav
+sounds/doorfx.wav -text svneol=unset#audio/x-wav
+sounds/jump.wav -text svneol=unset#audio/x-wav
+sounds/mechanismn.wav -text svneol=unset#audio/x-wav
+sounds/onedeathn.wav -text svneol=unset#audio/x-wav
+sounds/shoot.wav -text svneol=unset#audio/x-wav
+sounds/slash.wav -text svneol=unset#audio/x-wav
+src/barradeestado.c -text
+src/barradeestado.h -text
+src/bosses.c -text
+src/bosses.h -text
+src/comun.h -text
+src/enemigos.c -text
+src/enemigos.h -text
+src/fase.c -text
+src/fase.h -text
+src/jean.c -text
+src/jean.h -text
+src/main.c -text
+src/main.h -text
+src/musica.c -text
+src/musica.h -text
+src/pantallas.c -text
+src/pantallas.h -text
+src/structs.h -text

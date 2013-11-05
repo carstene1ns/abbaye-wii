@@ -2,6 +2,7 @@
 /README -text
 /abbaye.desktop -text
 /abbaye.png -text svneol=unset#image/png
+/abbaye2.png -text svneol=unset#image/png
 fonts/VeniceClassic.ttf -text svneol=unset#application/x-font-ttf
 graphics/abbeymd.png -text svneol=unset#image/png
 graphics/fondosmd/01.png -text svneol=unset#image/png
@@ -27,6 +28,7 @@ graphics/fondosmd/21.png -text svneol=unset#image/png
 graphics/fondosmd/22.png -text svneol=unset#image/png
 graphics/fondosmd/23.png -text svneol=unset#image/png
 graphics/fondosmd/24.png -text svneol=unset#image/png
+graphics/intro-gcw.png -text svneol=unset#image/png
 graphics/intro-pandora.png -text svneol=unset#image/png
 graphics/intro.png -text svneol=unset#image/png
 graphics/intro2.png -text svneol=unset#image/png
@@ -37,6 +39,7 @@ graphics/temp.png -text svneol=unset#image/png
 graphics/tiles.png -text svneol=unset#image/png
 graphics/tilesmd.png -text svneol=unset#image/png
 graphics/titlemd.png -text svneol=unset#image/png
+/make_opk.sh -text
 /makefile -text
 mapa/enemigos.txt -text
 mapa/mapa.txt -text

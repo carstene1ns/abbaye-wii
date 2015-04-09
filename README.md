@@ -1,78 +1,15 @@
-INTRODUCTION
+l'Abbaye des Morts (Wii)
+========================
 
-Abbaye des Morts is a freeware game made by LocoMalito (with the help of Gryzor87 in music side) in 2010. This game is, like other Locomalito's game, developed with Gamemaker and only runs natively in Microsoft Windows systems.
+You reached the repository for my port of the platformer to the Wii console. It
+was created in August 2014 and all changes have been included in the upstream
+repository since then, so this is abandoned.
+You can still get the initial release here, but all new development will happen
+in the upstream repository at:
 
-This is a port of this game to GNU/Linux systems. Is written in C code with the help of SDL libraries.
+https://github.com/nevat/abbayedesmorts-gpl
 
-The code is licensed under GNU GPL version 3, so anyone can download, see, change and redistributed the code.
+Please update your bookmarks and do not forget to "star" the new repository!
+Thanks!
 
-
-INSTALLATION FROM SOURCE
-
-To compile the program you need GCC compiler and SDL libraries. In Fedora systems you can install all of this packages with this command (as root):
-
-$ yum install gcc SDL-devel SDL_mixer-devel SDL_image-devel SDL_ttf-devel SDL_gfx-devel
-
-For Ubuntu users, run this:
-
-$ sudo apt-get install gcc libsdl1.2-dev libsdl-mixer1.2-dev libsdl-image1.2-dev libsdl-ttf2.0-dev libsdl-gfx1.2-dev
-
-Unpack the source code file:
-
-$ tar vxfz abbaye_linux_beta.tar.gz
-
-Enter the directory created an run:
-
-$ make
-
-As root, install the game with:
-
-$ make install
-
-(Ubuntu users run: $ sudo make install)
-
-A icon will appear in your application menu, in game section. Alternatively you can run the game with the order "abbaye".
-
-
-UNINSTALLATION FROM SOURCE
-
-Enter the directory and run (as root):
-
-$ make uninstall (Ubuntu users run: $ sudo make uninstall).
-
-
-OPENPANDORA VERSION INSTALLATION
-
-Just download the .pnd file (for example abbaye-1.0.pnd) and put it in the "pandora/menu", "pandora/desktop" or "pandora/apps" directory of your OpenPandora SD card. The game icon should appear in the applications menu (under Games/Adventure and RPG) and/or in the desktop (depending on where you put the .pnd file). Launch the game as usual and enjoy!
-
-
-BUILDING OPENPANDORA VERSION
-
-The easiest way to build this version is just by using the C/C++/Py Development Tools package. Get it here: http://repo.openpandora.org/?page=detail&app=cdevtools.freamon.40n8e
-Once installed, launch it, change the directory to the one you use for building stuff, make sure your OpenPandora console is connected to the Internet and run the following commands:
-
-svn checkout http://abbaye-for-linux.googlecode.com/svn/ abbaye-for-linux-read-only
-cd abbaye-for-linux-read-only
-make pandora
-
-And that's all. You can test the built binary launching ./abbaye-pandora. It will most likely run inside a window at 320x240 resolution. To make it fullscreen, create a script to launch it, with the following contents:
-_______________________
-
-#!/bin/sh
-export SDL_VIDEODRIVER="omapdss"
-export SDL_OMAP_VSYNC="0"
-export SDL_OMAP_LAYER_SIZE="640x480"
-./abbaye-pandora
-_______________________
-
-Make sure the script has exec permissions, launch it, and you should be able to play the game fullscreen. Finally, it's recommended to package the game in a .pnd file, but doing it is beyond the scope of this readme file.
-
-WII VERSION INSTALLATION
-
-Download the zip file (abbaye-wii-version.zip) and extract the contained apps folder to your Wii's SD card. You can then launch it from Homebrew Channel.
-
-BUILDING THE WII VERSION
-
-Setup the DevkitPPC toolchain as usual and install sdl_wii and the needed portlibs. Build the boot.dol:
-make wii
-(Optional) Convert the sound and music files to 32khz sample rate or use the files from the release zip archive. Without that, sounds and music will play a bit slower.
+*carstene1ns, 04/15*
